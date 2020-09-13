@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    background: yellow;
+    background-image: url('../images/adam-przewoski-193_web.png');
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 5%;
+}
+
+.line {
+    border-right: 4px solid white;
+    height: 150px;
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  body {
+      margin: 3%;
+      padding: 3%;
+  }
+
+  header {
+      color: white;
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  header h3 {
+      font-size: 60px;
+      padding-top: 80px;
+  }
+
+  header img {
+      width: 300px ;
+      height: 300px;
+  }
+
+ 
+
+  main h1 {
+      color: red;
+      padding-bottom: 60px;
+      font-size: 80px;
+      text-align: center;
+  }
+
+ .intro {
+     color: white;
+     font-size: 20px;
+     padding-bottom: 90px;
+     text-align: center;
+
+ }
+
+ .container {
+     display:  grid;
+     grid-template-columns: 2fr 1fr;
+     grid-template-rows: 1fr;
+     color: white;
+     padding-top: 80px;
+ }
+
+ .left {
+    width: 50%;
+    border-right: 4px solid white;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 120px;
+    position: relative;
+    left: 24px;
+    font-size: 18px;
+
+ }
+
+ .right {
+   
+    padding: 4%;
+    position: relative;
+    right: 40sspx;
+ }
+
+ footer {
+    
+     color: white;
+ }
+
+ .footer-container {
+    margin-top: 80px;
+ }
+
+ .contact-container {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    
+    width: 55%;
+    margin: 0 auto;
+ }
+
+form {
+    border: 2px solid white;
+    height: 35px;
+    margin: 0px;
+   border-radius: 25px;
+    display: flex;
+}
+ 
+
+ #email {
+     width: 600px;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border: none;
+     padding-left: 70px;
+     background: transparent;
+     color: white;
+ }
+
+ ::placeholder {
+     color: white;
+ }
+
+ #submit {
+     width: 300px;
+    color: white;
+    background: red;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+
+ }
+
+ .number-container {
+    text-align: center;
+    padding-top: 20px;
+ }
